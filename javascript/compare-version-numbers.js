@@ -15,9 +15,9 @@ var compareVersion = function(version1, version2) {
     for (let i = 0; i < largerVerLen; i++) {
         // console.log(v1SplitDot[i]);
         // console.log(v2SplitDot[i]);
-        if (v1SplitDot[i] === undefined) {
+        if (parseInt(v1SplitDot[i]) === undefined || NaN) {
             v1SplitDot[i] = 0;
-        } else if (v2SplitDot[i] === undefined) {
+        } else if (parseInt(v2SplitDot[i]) === undefined || NaN) {
             v2SplitDot[i] = 0;
         }
         if (parseInt(v1SplitDot[i]) != parseInt(v2SplitDot[i])) {
