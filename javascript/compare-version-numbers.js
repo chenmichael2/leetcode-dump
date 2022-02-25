@@ -7,6 +7,9 @@ var compareVersion = function(version1, version2) {
     if (v1SplitDot.length !== v2SplitDot.length) {
         return 0;
     }
+    for (let i = 0; i < v1.length; i++) {
+        
+    }
 };
 
 console.log('INPUT: 1.01, 1.001 ======= OUTPUT: 0 //////// ', compareVersion(1.01, 1.001))
