@@ -21,10 +21,10 @@ var compareVersion = function(version1, version2) {
             v2SplitDot[i] = 0;
         }
         if (parseInt(v1SplitDot[i]) != parseInt(v2SplitDot[i])) {
-            if (parseInt(v1SplitDot[i]) > parseInt(v2SplitDot[1])) {
+            if (parseInt(v1SplitDot[i]) > parseInt(v2SplitDot[i])) {
                 console.log(1);
                 return 1;
-            } else if (parseInt(v1SplitDot[i]) < parseInt(v2SplitDot[1])) {
+            } else if (parseInt(v1SplitDot[i]) < parseInt(v2SplitDot[i])) {
                 console.log(-1);
                 return -1;
             }
