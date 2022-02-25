@@ -4,8 +4,13 @@ var compareVersion = function(version1, version2) {
     let v2 = version2.toString();
     let v1SplitDot = v1.split('.');
     let v2SplitDot = v2.split('.');
-    
-    for (let i = 0; i < v1SplitDot.length; i++) {
+    let smallerVerLen = 0;
+    if (v1SplitDot.length > v2SplitDot.length) {
+        smallerVerLen = v2SplitDot.length;
+    } else {
+        smallerVerLen = v1SplitDot.length;
+    }
+    for (let i = 0; i < smallerVerLen; i++) {
         console.log(v1SplitDot[i]);
         console.log(v2SplitDot[i]);
         if (parseInt(v1SplitDot[i]) != parseInt(v2SplitDot[i])) {
