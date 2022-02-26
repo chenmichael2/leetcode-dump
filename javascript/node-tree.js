@@ -10,7 +10,20 @@ function countInserts(nums) {
         } else {
             insert(root, key);
         }
-    })
+    });
+    function insert(root, key) {
+        if (key < root) {
+            if (left === 0) {
+                left = key; 
+                counter += 1;
+                console.log(counter);
+            } else {
+                insert(left)
+            }
+        } else {
+            
+        }
+    }
 }
 
 console.log('INPUT = [2, 1, 3, 4, 2]', 'OUTPUT = 0 1 2 4 6', countInserts([2, 1, 3, 4, 2]));
