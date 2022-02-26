@@ -18,7 +18,9 @@ function countInserts(nums) {
                 counter += 1;
                 console.log(counter);
             } else {
+                console.log(root, left, right);
                 insert(left, key);
+                
             }
         } else {
             if (right === 0) {
@@ -26,6 +28,7 @@ function countInserts(nums) {
                 counter += 1;
                 console.log(counter);
             } else {
+                console.log(root, left, right);
                 insert(right, key);
             }
         }
