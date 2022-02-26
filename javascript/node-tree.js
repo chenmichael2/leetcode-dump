@@ -3,7 +3,14 @@ function countInserts(nums) {
     let root = 0;
     let right = 0;
     let left = 0;
-    
+    nums.forEach(key => {
+        if (root === 0) {
+            root = key;
+            console.log(counter);
+        } else {
+            insert(root, key);
+        }
+    })
 }
 
 console.log('INPUT = [2, 1, 3, 4, 2]', 'OUTPUT = 0 1 2 4 6', countInserts([2, 1, 3, 4, 2]));
