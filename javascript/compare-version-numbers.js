@@ -1,4 +1,3 @@
-
 var compareVersion = function(version1, version2) {
     let v1 = version1.toString();
     let v2 = version2.toString();
