@@ -32,9 +32,7 @@ var compareVersion = function(version1, version2) {
     }
     return 0;
     // if (parseInt(v1SplitDot[1]) == parseInt(v2SplitDot[1])) {
-    //     console.log("they are the same");
-    // } else {
-    //     console.log("NOT THE SAME")
+
 
 };
 
