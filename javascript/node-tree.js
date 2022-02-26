@@ -18,10 +18,14 @@ function countInserts(nums) {
                 counter += 1;
                 console.log(counter);
             } else {
-                insert(left)
+                insert(left, key)
             }
         } else {
-            
+            if (right === 0) {
+                right = key;
+                counter += 1;
+                console.log(counter);
+            }
         }
     }
 }
