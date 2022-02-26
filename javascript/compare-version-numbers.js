@@ -13,7 +13,7 @@ var compareVersion = function(version1, version2) {
         largerVerLen = v1SplitDot.length;
     }
     for (let i = 0; i < largerVerLen; i++) {
-        // console.log(v1SplitDot[i]);
+        // console.log(v1S
         if (parseInt(v1SplitDot[i]) === undefined) {
             v1SplitDot[i] = 0;
         } else if (parseInt(v2SplitDot[i]) === undefined) {
