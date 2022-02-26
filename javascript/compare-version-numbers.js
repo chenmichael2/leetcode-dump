@@ -31,7 +31,7 @@ var compareVersion = function(version1, version2) {
         }
     }
     return 0;
-    // if (parseInt(v1SplitDot[1]) == 
+    // if (parseInt(v1SplitDot
 
 
 };
