@@ -25,6 +25,8 @@ function countInserts(nums) {
                 right = key;
                 counter += 1;
                 console.log(counter);
+            } else {
+                insert(right, key);
             }
         }
     }
