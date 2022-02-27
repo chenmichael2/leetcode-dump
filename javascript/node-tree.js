@@ -20,7 +20,6 @@ function countInserts(nums) {
             } else {
                 console.log(root, left, right);
                 insert(left, key);
-                
             }
         } else {
             if (right === 0) {
