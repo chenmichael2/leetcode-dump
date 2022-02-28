@@ -9,7 +9,7 @@ function summaryRanges(nums) {
 
 
 
-        // j = 3;
+
         //3 + 1 === 4 true 
         // i = 3 j = 4
         // 4 + 1 === 6 false
