@@ -5,7 +5,7 @@ function summaryRanges(nums) {
         let j = i + 1;
         let string = "";
         console.log('i', i);
-        console.log('j', j); // 2
+        console.log('j', j);
         // nums[1] + 1 === nums[2]
         // 2 + 1 === 3  true
         // i = 2;
