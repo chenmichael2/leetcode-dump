@@ -11,7 +11,6 @@ function summaryRanges(nums) {
 
 
 
-        // 4 + 1 === 6 false
         while (nums[i] + 1 === nums[j]) {
             j++;
             i++;
