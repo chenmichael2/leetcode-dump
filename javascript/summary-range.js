@@ -16,7 +16,7 @@ function summaryRanges(nums) {
             i++;
         }
 
-        //j = 4 // 2
+
         if (nums[first] != nums[j - 1]) {
             string = nums[first] + "->" + nums[j - 1];
         } else {
