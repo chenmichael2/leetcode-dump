@@ -10,7 +10,6 @@ function summaryRanges(nums) {
 
 
 
-
         while (nums[i] + 1 === nums[j]) {
             j++;
             i++;
