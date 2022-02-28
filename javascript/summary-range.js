@@ -1,5 +1,7 @@
 function summaryRanges(nums) {
-    
+    for (let i = 0; i < nums.length; i++) {
+        
+    }
 }
 
 console.log('Input: ', nums = [0,1,2,4,5,7], 'Output: ', ["0->2","4->5","7"], summaryRanges([0,1,2,4,5,7]))
