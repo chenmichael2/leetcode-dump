@@ -8,7 +8,7 @@ function summaryRanges(nums) {
         console.log('j', j);
 
 
-        // i = 2;
+
         // j = 3;
         //3 + 1 === 4 true 
         // i = 3 j = 4
