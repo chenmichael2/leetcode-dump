@@ -7,7 +7,7 @@ function summaryRanges(nums) {
         console.log('i', i);
         console.log('j', j);
 
-        // 2 + 1 === 3  true
+
         // i = 2;
         // j = 3;
         //3 + 1 === 4 true 
