@@ -8,7 +8,6 @@ function summaryRanges(nums) {
         console.log('j', j);
 
 
-
         while (nums[i] + 1 === nums[j]) {
             j++;
             i++;
