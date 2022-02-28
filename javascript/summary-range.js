@@ -5,7 +5,7 @@ function summaryRanges(nums) {
         let j = i + 1;
         let string = "";
 
-        console.log('j', j);
+
         while (nums[i] + 1 === nums[j]) {
             j++;
             i++;
