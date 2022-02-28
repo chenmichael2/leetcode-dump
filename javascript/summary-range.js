@@ -4,8 +4,6 @@ function summaryRanges(nums) {
         let first = i;
         let j = i + 1;
         let string = "";
-
-
         while (nums[i] + 1 === nums[j]) {
             j++;
             i++;
