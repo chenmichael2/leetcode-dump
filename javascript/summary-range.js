@@ -1,21 +1,31 @@
 function summaryRanges(nums) {
     let output = [];
     for (let i = 0; i < nums.length; i++) {
+        let first = i;
         let j = i + 1;
         let string = "";
-        console.log('i', i);
-        console.log('j', j);
+        console.log('i', i); // 1
+        console.log('j', j); // 2
+        // nums[1] + 1 === nums[2]
+        // 2 + 1 === 3  true
+        // i = 2;
+        // j = 3;
+        //3 + 1 === 4 true 
+        // i = 3 j = 4
+        // 4 + 1 === 6 false
         while (nums[i] + 1 === nums[j]) {
             j++;
             i++;
         }
-        if (i != j) {
-            string = i + "->" + j;
+        // i = 3 // 0
+        //j = 4 // 2
+        if (nums[first] != nums[j - 1]) {
+            string = nums[first] + "->" + nums[j - 1];
         } else {
-            string = i;
+            string = "" + nums[i];
         }
         output.push(string);
-        i = j;
+        i = j - 1;
     }
     return output;
 }
