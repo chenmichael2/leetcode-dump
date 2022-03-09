@@ -28,7 +28,9 @@ class BST {
                 this.insertNode(node.left, newNode);
             }
         } else {
-            
+            if (node.right === null) {
+                
+            }
         }
     }
 }
