@@ -13,5 +13,10 @@ class BST {
 }
 
 function insert(data) {
-    
+    let newNode = new Node(data);
+    if (this.root === null) {
+        this.root = newNode;
+    } else {
+        this.insertNode(this.root, newNode);
+    }
 }
