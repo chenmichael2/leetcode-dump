@@ -29,6 +29,8 @@ class BST {
             }
         } else {
             if (node.right === null) {
+                node.right = newNode;
+            } else {
                 
             }
         }
