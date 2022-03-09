@@ -37,6 +37,6 @@ class BST {
     }
 
     remove (data) {
-        this.root = 
+        this.root = this.removeNode(this.root, data);
     }
 }
