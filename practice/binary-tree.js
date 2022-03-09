@@ -24,7 +24,11 @@ class BST {
         if (newNode.data < node.data) {
             if (node.left === null) {
                 node.left = newNode;
+            } else {
+                this.insertNode(node.left, newNode);
             }
+        } else {
+            
         }
     }
 }
