@@ -12,18 +12,13 @@ class BST {
     }
 }
 
-insert(data)
-{
-	var newNode = new Node(data);
-	// root is null then node will
-	// be added to the tree and made root.
-	if(this.root === null)
-		this.root = newNode;
-	else
-
-		// find the correct position in the
-		// tree and add the node
-		this.insertNode(this.root, newNode);
+insert(data) {
+    var newNode = new Node(data);
+    if(this.root === null) {
+        this.root = newNode;
+    } else {
+        this.insertNode(this.root, newNode);
+    }
 }
 
 // Method to insert a node in a tree
