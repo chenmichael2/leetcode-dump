@@ -35,4 +35,8 @@ class BST {
             }
         }
     }
+
+    remove (data) {
+        
+    }
 }
