@@ -31,7 +31,7 @@ class BST {
             if (node.right === null) {
                 node.right = newNode;
             } else {
-                
+                this.insertNode(node.right, newNode);
             }
         }
     }
