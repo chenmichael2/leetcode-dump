@@ -20,7 +20,7 @@ class BST {
         }
     }
 
-    insertNode(data) {
-        
+    insertNode(node, newNode) {
+
     }
 }
