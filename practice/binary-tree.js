@@ -11,3 +11,7 @@ class BST {
         this.root = null;
     }
 }
+
+function insert(data) {
+    
+}
