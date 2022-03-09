@@ -40,5 +40,5 @@ class BST {
         this.root = this.removeNode(this.root, data);
     }
 
-    remoteNode(node, key) {}
+    removeNode(node, key) {}
 }
