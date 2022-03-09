@@ -37,5 +37,6 @@ class BST {
     }
 
     remove (data) {
+        
     }
 }
