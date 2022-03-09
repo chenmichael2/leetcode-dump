@@ -10,13 +10,17 @@ class BST {
     construct() {
         this.root = null;
     }
-}
 
-function insert(data) {
-    let newNode = new Node(data);
-    if (this.root === null) {
-        this.root = newNode;
-    } else {
-        this.insertNode(this.root, newNode);
+    insert(data) {
+        let newNode = new Node(data);
+        if (this.root === null) {
+            this.root = newNode;
+        } else {
+            this.insertNode(this.root, newNode);
+        }
+    }
+
+    insertNode(data) {
+        
     }
 }
