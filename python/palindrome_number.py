@@ -1,8 +1,8 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        print(self)
+        print(x)
         
     
 s1 = Solution()
 
-print(s1)
+s1.isPalindrome(3)
