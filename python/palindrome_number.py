@@ -6,4 +6,4 @@ class Solution:
     
 s = Solution()
 
-s.isPalindrome(3)
+s.isPalindrome(3113)
