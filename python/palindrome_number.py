@@ -3,6 +3,10 @@ class Solution:
         string = str(x)
         print(string, len(string))
         print(string[1])
+        if (len(string) == 1):
+            return False
+        else:
+            print("longer than 1")
     
 s = Solution()
 
