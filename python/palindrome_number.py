@@ -4,10 +4,14 @@ class Solution:
         length = len(string)
         print(string, length)
         print(string[1])
-        if (length == 1):
+        if length == 1:
             return False
         else:
             print("longer than 1")
+            if length % 2 == 0:
+                print("even")
+            else: 
+                print("odd")
     
 s = Solution()
 
