@@ -10,9 +10,11 @@ class Solution:
             print("longer than 1")
             if length % 2 == 0:
                 print("even")
+                print(length / 2)
             else: 
                 print("odd")
+                print((length - 1) / 2)
     
 s = Solution()
 
-s.isPalindrome(3113)
+s.isPalindrome(31132)
