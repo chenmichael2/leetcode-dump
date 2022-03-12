@@ -3,4 +3,6 @@ class Solution:
         print("hello")
         return 1
     
-print(Solution)
+s1 = Solution(121, 121)
+
+print(s1)
