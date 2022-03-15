@@ -16,8 +16,8 @@ class Solution:
             else: 
                 print("odd")
                 print((length - 1) / 2)
-                first_half_index = ((length - 1) / 2) - 1
-                print()
+                first_half_index = int(((length - 1) / 2) - 1)
+                print(string[:first_half_index])
     
 s = Solution()
 
