@@ -21,7 +21,7 @@ class Solution:
                 first_half = string[0:first_half_index]
                 second_half = string[second_half_index:]
                 print(first_half)
-                
+                print(second_half)
                 
     
 s = Solution()
