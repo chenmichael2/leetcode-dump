@@ -1,3 +1,6 @@
+from distutils.command.build_scripts import first_line_re
+
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         string = str(x)
@@ -13,7 +16,8 @@ class Solution:
             else: 
                 print("odd")
                 print((length - 1) / 2)
-                first_half_index = 
+                first_half_index = ((length - 1) / 2) - 1
+                print(first_half_index)
     
 s = Solution()
 
