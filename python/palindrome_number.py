@@ -25,7 +25,7 @@ class Solution:
                 if first_half == second_half:
                     print('palindrome')
                 else:
-                    print()
+                    print('not palindrome')
                 
     
 s = Solution()
