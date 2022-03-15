@@ -22,6 +22,8 @@ class Solution:
                 second_half = string[second_half_index:][::-1]
                 print(first_half)
                 print(second_half)
+                if first_half == second_half:
+                    
                 
     
 s = Solution()
