@@ -3,7 +3,6 @@ class Solution:
         string = str(x)
         length = len(string)
         print(string, length)
-        print(string[1])
         if length == 1:
             return False
         else:
