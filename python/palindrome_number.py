@@ -19,9 +19,9 @@ class Solution:
                 first_half_index = int(((length - 1) / 2))
                 second_half_index = first_half_index + 1
                 first_half = string[0:first_half_index]
-                second_half = string[second_half_index:]
+                second_half = string[second_half_index:][::-1]
                 print(first_half)
-                print(second_half[::-1])
+                print(second_half)
                 
     
 s = Solution()
