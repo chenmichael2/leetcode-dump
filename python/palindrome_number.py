@@ -17,8 +17,8 @@ class Solution:
                 second_half_index = first_half_index + 1
                 first_half = string[0:first_half_index]
                 second_half = string[second_half_index:][::-1]
-                print()
-                print()
+                print(first_half)
+                print(second_half)
             else: 
                 print("odd")
                 print((length - 1) / 2)
