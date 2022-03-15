@@ -30,4 +30,4 @@ class Solution:
     
 s = Solution()
 
-s.isPalindrome(311113132)
+s.isPalindrome(3111113)
