@@ -18,7 +18,7 @@ class Solution:
                 print((length - 1) / 2)
                 first_half_index = int(((length - 1) / 2))
                 second_half_index = first_half_index + 2
-                print(first_half_index)
+                first_half = 
                 print(string[0:first_half_index])
     
 s = Solution()
