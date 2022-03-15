@@ -16,9 +16,11 @@ class Solution:
             else: 
                 print("odd")
                 print((length - 1) / 2)
-                first_half_index = int(((length - 1) / 2) - 1)
-                print(string[:first_half_index])
+                first_half_index = int(((length - 1) / 2))
+                second_half_index = first_half_index + 2
+                print(first_half_index)
+                print(string[0:first_half_index])
     
 s = Solution()
 
-s.isPalindrome(31132)
+s.isPalindrome(311113132)
