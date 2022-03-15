@@ -14,11 +14,15 @@ class Solution:
                 print("even")
                 print(length / 2)
                 first_half_index = int((length / 2))
-                second_half_index = first_half_index + 1
+                second_half_index = first_half_index
                 first_half = string[0:first_half_index]
                 second_half = string[second_half_index:][::-1]
-                print(first_half)
-                print(second_half)
+                if first_half == second_half:
+                    print('palindrome')
+                    return True
+                else:
+                    print('not palindrome')
+                    return False
             else: 
                 print("odd")
                 print((length - 1) / 2)
@@ -36,4 +40,4 @@ class Solution:
     
 s = Solution()
 
-s.isPalindrome(3111113)
+s.isPalindrome(311113)
