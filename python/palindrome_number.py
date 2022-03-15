@@ -17,7 +17,7 @@ class Solution:
                 print("odd")
                 print((length - 1) / 2)
                 first_half_index = ((length - 1) / 2) - 1
-                print(first_half_index)
+                print()
     
 s = Solution()
 
