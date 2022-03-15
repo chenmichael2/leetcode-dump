@@ -24,8 +24,10 @@ class Solution:
                 print(second_half)
                 if first_half == second_half:
                     print('palindrome')
+                    return True
                 else:
                     print('not palindrome')
+                    return False
                 
     
 s = Solution()
