@@ -23,7 +23,7 @@ class Solution:
                 print(first_half)
                 print(second_half)
                 if first_half == second_half:
-                    
+                    print()
                 
     
 s = Solution()
