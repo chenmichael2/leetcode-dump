@@ -13,6 +13,10 @@ class Solution:
             if length % 2 == 0:
                 print("even")
                 print(length / 2)
+                first_half_index = int((length / 2))
+                second_half_index = first_half_index + 1
+                first_half = string[0:first_half_index]
+                second_half = string[second_half_index:][::-1]
             else: 
                 print("odd")
                 print((length - 1) / 2)
