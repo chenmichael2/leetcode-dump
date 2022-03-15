@@ -13,6 +13,7 @@ class Solution:
             else: 
                 print("odd")
                 print((length - 1) / 2)
+                first_half_index = 
     
 s = Solution()
 
