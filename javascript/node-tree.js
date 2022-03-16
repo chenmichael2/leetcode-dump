@@ -54,6 +54,10 @@ function countInserts(nums) {
                 insertNewNode()
             }
         }
+
+        insertNewNode() {
+            
+        }
     }
 }
 
