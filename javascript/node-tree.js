@@ -42,7 +42,7 @@ function countInserts(nums) {
     }
 
     class BST {
-        construct() {
+        construct(data) {
 
         }
     }
