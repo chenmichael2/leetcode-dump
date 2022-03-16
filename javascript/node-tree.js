@@ -48,7 +48,7 @@ function countInserts(nums) {
 
         insert(data) {
             if (this.root === null) {
-                
+                this.root = data;
             }
         }
     }
