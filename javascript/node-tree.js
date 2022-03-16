@@ -49,10 +49,9 @@ function countInserts(nums) {
         insert(data) {
             let newNode = new Node(data);
             if (this.root === null) {
-
                 this.root = data;
             } else {
-                insertNewNode
+                insertNewNode()
             }
         }
     }
