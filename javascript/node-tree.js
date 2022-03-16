@@ -42,8 +42,8 @@ function countInserts(nums) {
     }
 
     class BST {
-        insert(data) {
-            
+        construct() {
+
         }
     }
 }
