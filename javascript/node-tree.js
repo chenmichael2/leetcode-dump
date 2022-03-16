@@ -34,7 +34,9 @@ function countInserts(nums) {
     // }
 
     class Node {
-        
+        constructor(data){
+            
+        }
     }
 }
 
