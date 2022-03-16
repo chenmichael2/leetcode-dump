@@ -43,7 +43,11 @@ function countInserts(nums) {
 
     class BST {
         construct(data) {
+            this.root = null
+        }
 
+        insert(data) {
+            if (this.data === null)
         }
     }
 }
