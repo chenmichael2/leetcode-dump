@@ -63,7 +63,7 @@ function countInserts(nums) {
                     this.insertNewNode(node.left, newNode)
                 }
             } else {
-                
+                if (node.right)
             }
         }
     }
