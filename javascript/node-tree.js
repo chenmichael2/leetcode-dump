@@ -55,7 +55,7 @@ function countInserts(nums) {
             }
         }
 
-        insertNewNode() {
+        insertNewNode(node, newNode) {
             
         }
     }
