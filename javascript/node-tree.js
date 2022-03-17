@@ -59,7 +59,9 @@ function countInserts(nums) {
             if (newNode.data < node.data) {
                 if (node.left === null) {
                     node.left = newNode
-                } else
+                } else {
+                    
+                }
             }
         }
     }
