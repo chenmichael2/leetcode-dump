@@ -60,7 +60,7 @@ function countInserts(nums) {
                 if (node.left === null) {
                     node.left = newNode
                 } else {
-                    
+                    this.insertNewNode(node.left, newNode)
                 }
             }
         }
