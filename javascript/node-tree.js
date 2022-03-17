@@ -62,6 +62,8 @@ function countInserts(nums) {
                 } else {
                     this.insertNewNode(node.left, newNode)
                 }
+            } else {
+                
             }
         }
     }
