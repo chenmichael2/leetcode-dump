@@ -70,6 +70,7 @@ function countInserts(nums) {
                 }
             }
         }
+        
     }
 }
 
