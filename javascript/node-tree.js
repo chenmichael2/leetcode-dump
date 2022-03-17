@@ -56,7 +56,9 @@ function countInserts(nums) {
         }
 
         insertNewNode(node, newNode) {
-            if (newNode.data < node.data)
+            if (newNode.data < node.data) {
+                
+            }
         }
     }
 }
