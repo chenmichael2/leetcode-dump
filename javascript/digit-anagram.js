@@ -1,6 +1,7 @@
 function digit_anagram(a) {
     let count = 0;
-    
+    let sort = a.map(x => x.splice('').sort().join())
+    console.log(sort);
     return count;
 }
 
