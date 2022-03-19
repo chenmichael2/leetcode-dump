@@ -4,9 +4,9 @@ function digit_anagram(a) {
     // sort.sort((x, y) => x.length - y.length);
     console.log(sort);
     let lengths = [];
-    for (let i = 0; i < sort.length; i++) {
-        for (let j = 0; j < sort.length; i++) {
-            
+    for (let i = 0; i < sort.length - 1; i++) {
+        for (let j = i + 1; j < sort.length; i++) {
+            if ()
         }
     }
     return count;
