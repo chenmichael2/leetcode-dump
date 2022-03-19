@@ -8,6 +8,7 @@ function digit_anagram(a) {
         for (let j = i + 1; j < sort.length; i++) {
             if (sort[i] === sort[j]) {
                 count += 1;
+                console.log('adding one to count');
             }
         }
     }
