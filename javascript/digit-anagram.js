@@ -6,7 +6,7 @@ function digit_anagram(a) {
     let lengths = [];
     for (let i = 0; i < sort.length - 1; i++) {
         for (let j = i + 1; j < sort.length; i++) {
-            if ()
+            if (sort[i] === sort[j]);
         }
     }
     return count;
