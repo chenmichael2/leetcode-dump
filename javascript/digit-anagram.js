@@ -3,6 +3,7 @@ function digit_anagram(a) {
     let sort = a.map(x => x.toString().split('').sort().join())
     // sort.sort((x, y) => x.length - y.length);
     console.log(sort);
+    
     return count;
 }
 
