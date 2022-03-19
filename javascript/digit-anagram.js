@@ -5,7 +5,9 @@ function digit_anagram(a) {
     console.log(sort);
     let lengths = [];
     for (let i = 0; i < sort.length; i++) {
-        
+        for (let j = 0; j < sort.length; i++) {
+            
+        }
     }
     return count;
 }
