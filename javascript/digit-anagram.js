@@ -5,7 +5,7 @@ function digit_anagram(a) {
     console.log(sort);
     let lengths = [];
     for (let i = 0; i < sort.length - 1; i++) {
-        for (let j = i + 1; j < sort.length; i++) {
+        for (let j = i + 1; j < sort.length; j++) {
             if (sort[i] === sort[j]) {
                 count += 1;
                 console.log('adding one to count');
