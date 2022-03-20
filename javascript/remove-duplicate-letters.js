@@ -1,1 +1,1 @@
-function removeDuplicateLetters()
+function removeDuplicateLetters(s)
