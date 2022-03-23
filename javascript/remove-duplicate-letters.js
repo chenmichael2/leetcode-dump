@@ -8,6 +8,8 @@ function removeDuplicateLetters(s) {
         cnt[s[i].charCodeAt(0) - 'a'.charCodeAt(0)]++;
         console.log(s[i].charCodeAt(0) - 'a'.charCodeAt(0))
     }
+    let res = "";
+    
 
     console.log(visit);
     console.log(cnt);
