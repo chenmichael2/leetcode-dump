@@ -12,7 +12,18 @@ function removeDuplicateLetters(s) {
     for (let i = 0; i < s.length; i++) {
         cnt[s[i].charCodeAt(0) - 'a'.charCodeAt(0)]--;
         if (!vis[s[i].charCodeAt(0) - 'a'.charCodeAt(0)]) {
-            
+            while (res.length > 0
+                && res[res.length-1].charCodeAt(0) >
+                s[i].charCodeAt(0)
+                && cnt[res[res.length-1].charCodeAt(0) -
+                'a'.charCodeAt(0)] > 0) {
+                    // Mark letter unvisited
+                    vis[res[res.length-1].charCodeAt(0) -
+                    'a'.charCodeAt(0)] = 0;
+                    res = res.substring(0, res.length-1);
+                }
+                res += s[i];
+                vis[s[i].charCodeAt(0) - 'a'.charCodeAt(0)] = 1;
         }
     }
 
