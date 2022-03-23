@@ -25,11 +25,13 @@ function removeDuplicateLetters(s) {
                 res += s[i];
                 vis[s[i].charCodeAt(0) - 'a'.charCodeAt(0)] = 1;
         }
+
     }
 
     console.log(vis);
     console.log(cnt);
+    return res;
 }
 
-console.log('Input: ', "s = cbacdcbcf" , 'Expected Output: ', "acdb", 'Output', removeDuplicateLetters("cbacdcbcf"))
+console.log('Input: ', "s = cbacdcbcf" , 'Expected Output: ', "acdbf", 'Output', removeDuplicateLetters("cbacdcbcf"))
 // console.log('Input: ', "s = bcabc" , 'Expected Output: ', "abc", 'Output', removeDuplicateLetters("bcabc"));
