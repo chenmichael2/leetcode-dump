@@ -8,8 +8,12 @@ function removeDuplicateLetters(s) {
         cnt[s[i].charCodeAt(0) - 'a'.charCodeAt(0)]++;
     }
     for (let i = 0; i < cnt.length; i++) {
-        
+        if (cnt[i] !== 0) {
+            visit[i] = true
+        }
     }
+    console.log(visit);
+    console.log(cnt);
 }
 
 console.log('Input: ', "s = cbacdcbc" , 'Expected Output: ', "acdb", 'Output', removeDuplicateLetters("cbacdcbc"))
