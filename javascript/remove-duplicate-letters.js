@@ -9,7 +9,9 @@ function removeDuplicateLetters(s) {
         console.log(s[i].charCodeAt(0) - 'a'.charCodeAt(0))
     }
     let res = "";
-    
+    for (let i = 0; i < s.length; i++) {
+        
+    }
 
     console.log(visit);
     console.log(cnt);
