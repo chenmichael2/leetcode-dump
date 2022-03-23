@@ -27,7 +27,7 @@ function removeDuplicateLetters(s) {
         }
     }
 
-    console.log(visit);
+    console.log(vis);
     console.log(cnt);
 }
 
