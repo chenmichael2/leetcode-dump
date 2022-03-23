@@ -7,6 +7,9 @@ function removeDuplicateLetters(s) {
     for (var i = 0; i < s.length; i++) {
         cnt[s[i].charCodeAt(0) - 'a'.charCodeAt(0)]++;
     }
+    for (let i = 0; i < cnt.length; i++) {
+        
+    }
 }
 
 console.log('Input: ', "s = cbacdcbc" , 'Expected Output: ', "acdb", 'Output', removeDuplicateLetters("cbacdcbc"))
