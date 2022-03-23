@@ -17,5 +17,5 @@ function removeDuplicateLetters(s) {
     console.log(cnt);
 }
 
-console.log('Input: ', "s = cbacdcbc" , 'Expected Output: ', "acdb", 'Output', removeDuplicateLetters("cbacdcbc"))
+console.log('Input: ', "s = cbacdcbcf" , 'Expected Output: ', "acdb", 'Output', removeDuplicateLetters("cbacdcbcf"))
 // console.log('Input: ', "s = bcabc" , 'Expected Output: ', "abc", 'Output', removeDuplicateLetters("bcabc"));
