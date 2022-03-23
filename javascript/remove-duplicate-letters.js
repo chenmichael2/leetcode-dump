@@ -1,7 +1,7 @@
 function removeDuplicateLetters(s) {
     console.log(s);
     for (let i = 0; i < s.length; i++) {
-        console.log(s[i]);
+        let firstLetter = s[i];
     }
     
 }
