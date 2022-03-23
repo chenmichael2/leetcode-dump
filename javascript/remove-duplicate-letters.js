@@ -1,6 +1,6 @@
 function removeDuplicateLetters(s) {
     let cnt = Array(26).fill(0);
-    let visit = Array(26).fill(false);
+    let vis = Array(26).fill(false);
     // for (let i = 0; i < string.length; i++) {
     //     console.log(s[i], s.charCodeAt(i));
     // }
