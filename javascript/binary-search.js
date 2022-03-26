@@ -7,7 +7,7 @@ var search = function(nums, target) {
         return -1;
     }
     function searchHalf(arr, target) {
-        
+         
     }
 };
 
