@@ -4,7 +4,8 @@ var search = function(nums, target) {
     console.log(lastIndex);
     if (nums.includes(target)) {
         console.log('first if statement')
-        let index = 
+        let index = nums.indexOf(target);
+        console.log(index);
     }
     if (target > num[lastIndex] || target < num[0]) {
         console.log('not within search');
