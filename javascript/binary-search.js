@@ -2,8 +2,9 @@ var search = function(nums, target) {
     console.log(nums, target);
     let lastIndex = nums.length - 1;
     console.log(lastIndex);
-    if (target > num) {
-
+    if (target > num[lastIndex] || target < num[0]) {
+        console.log('not within search');
+        return -1
     }
 };
 
