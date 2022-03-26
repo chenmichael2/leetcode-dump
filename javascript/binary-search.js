@@ -18,4 +18,4 @@ var search = function(nums, target) {
     }
 };
 
-console.log(search([-1,0,3,4,5,9,12], 4)) // output should be
+console.log(search([-1,0,3,5,9,12], 9)) // output should be 4
