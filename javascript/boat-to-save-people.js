@@ -8,7 +8,7 @@ function savePeopleBoat(ppl, lim) {
             boat += 1;
             pplCopy.shift();
         } else {
-            
+            pplCopy[0]
         }
     }
 }
