@@ -4,4 +4,4 @@ function savePeopleBoat(ppl, lim) {
 
 }
 
-console.log('Input: ', "s = cbacdcbcf" , 'Expected Output: ', "acdbf", 'Output', savePeopleBoat())
+console.log('Input: ', "people = [1,2], limit = 3" , 'Expected Output: ', , 'Output', savePeopleBoat([1,2], 3))
