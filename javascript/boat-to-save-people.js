@@ -8,7 +8,10 @@ function savePeopleBoat(ppl, lim) {
             boat += 1;
             pplCopy.shift();
         } else {
-            pplCopy[0]
+            let n = pplCopy[0] - lim;
+            while (n > 0) {
+                
+            }
         }
     }
 }
