@@ -2,13 +2,9 @@
 
 function savePeopleBoat(ppl, lim) {
     let pplCopy = ppl;
-    let boat = 0
-    for (let i = 0; i < pplCopy.length; i++) {
-        if (pplCopy[i] === lim) {
-            pplCopy.shift();
-        } else {
-            let n = pplCopy[i] - lim;
-        }
+    let boat = 0;
+    while (pplCopy.length > 0) {
+        
     }
 }
 
