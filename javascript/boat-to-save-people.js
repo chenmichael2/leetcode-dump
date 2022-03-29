@@ -7,7 +7,7 @@ function savePeopleBoat(ppl, lim) {
         if (pplCopy[i] === lim) {
             pplCopy.shift();
         } else {
-            
+            let n = pplCopy[i] - lim;
         }
     }
 }
