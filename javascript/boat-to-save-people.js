@@ -5,7 +5,7 @@ function savePeopleBoat(ppl, lim) {
     let boat = 0
     for (let i = 0; i < pplCopy.length; i++) {
         if (pplCopy[i] === lim) {
-
+            
         }
     }
 }
