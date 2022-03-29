@@ -6,6 +6,8 @@ function savePeopleBoat(ppl, lim) {
     for (let i = 0; i < pplCopy.length; i++) {
         if (pplCopy[i] === lim) {
             pplCopy.shift();
+        } else {
+            
         }
     }
 }
