@@ -1,8 +1,10 @@
 // daily-programmer 20220324
 
 function savePeopleBoat(ppl, lim) {
-    let sortedPpl = ppl.sort();
-    console.log(sortedPpl);
+    let pplCopy = ppl;
+    for (let i = 0; i < pplCopy.length; i++) {
+        
+    }
 }
 
 // console.log('Input: ', "people = [1,2], limit = 3" , 'Expected Output: ', 1, 'Output', savePeopleBoat([1,2], 3));
