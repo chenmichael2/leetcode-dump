@@ -1,3 +1,5 @@
 // daily-programmer 20220324
 
-function savePeopleBoat()
+function savePeopleBoat(ppl, lim) {
+    
+}
