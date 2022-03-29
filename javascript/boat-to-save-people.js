@@ -10,7 +10,7 @@ function savePeopleBoat(ppl, lim) {
         } else {
             let n = pplCopy[0] - lim;
             while (n > 0) {
-                
+                if
             }
         }
     }
