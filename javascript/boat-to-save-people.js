@@ -31,7 +31,6 @@ function savePeopleBoat(ppl, lim) {
                 pplCopy.shift();
             }
             
-            
         }
     }
     return boat;
