@@ -10,7 +10,10 @@ function savePeopleBoat(ppl, lim) {
         } else {
             let n = pplCopy[0] - lim;
             while (n > 0) {
-                if
+                if (pplCopy.includes(n)) {
+                    boat += 1;
+                    pplCopy.
+                }
             }
         }
     }
