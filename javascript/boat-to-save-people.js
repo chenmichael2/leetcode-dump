@@ -13,7 +13,6 @@ function savePeopleBoat(ppl, lim) {
                 pplCopy.shift();
             } else {
                 let n = pplCopy[0] - lim;
-                console.log(pplCopy[0], lim, n)
                 while (n > 0) {
                     if (pplCopy.includes(n)) {
                         boat += 1;
