@@ -21,7 +21,7 @@ function savePeopleBoat(ppl, lim) {
                         let index = pplCopy.indexOf(n);
                         console.log(index);
                         console.log(pplCopy)
-                        pplCopy.slice(index, 1);
+                        pplCopy.splice(index, 1);
                         console.log(pplCopy)
                         // pplCopy.shift();
                         n = 0;
