@@ -1,3 +1,5 @@
 // daily programmer 20220330
 
-function
+function search2dMatrix() {
+    
+}
