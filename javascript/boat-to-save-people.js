@@ -32,7 +32,6 @@ function savePeopleBoat(ppl, lim) {
             }
             
             
-            
         }
     }
     return boat;
