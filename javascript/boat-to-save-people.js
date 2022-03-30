@@ -16,6 +16,7 @@ function savePeopleBoat(ppl, lim) {
                 while (n > 0) {
                     if (pplCopy.includes(n)) {
                         boat += 1;
+                        console.log("hello")
                         let index = pplCopy.indexOf(n);
                         console.log(index);
                         pplCopy.spice(index, 1);
