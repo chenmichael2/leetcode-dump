@@ -4,8 +4,10 @@ function savePeopleBoat(ppl, lim) {
     let pplCopy = ppl;
     let boat = 0;
     while (pplCopy.length > 0) {
+        console.log(pplCopy.length);
         if (pplCopy.length === 1) {
             boat += 1;
+
             pplCopy.shift();
         } else {
             let n = pplCopy[0] - lim;
