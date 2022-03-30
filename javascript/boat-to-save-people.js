@@ -17,11 +17,12 @@ function savePeopleBoat(ppl, lim) {
                     pplCopy.spice(index, 1);
                     pplCopy.shift();
                 } else {
-                    
+                    n--;
                 }
             }
         }
     }
+    return boat;
 }
 
 // console.log('Input: ', "people = [1,2], limit = 3" , 'Expected Output: ', 1, 'Output', savePeopleBoat([1,2], 3));
