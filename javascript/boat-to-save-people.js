@@ -16,6 +16,8 @@ function savePeopleBoat(ppl, lim) {
                     console.log(index);
                     pplCopy.spice(index, 1);
                     pplCopy.shift();
+                } else {
+                    
                 }
             }
         }
