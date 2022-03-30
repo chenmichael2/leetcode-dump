@@ -12,10 +12,8 @@ function savePeopleBoat(ppl, lim) {
                 boat += 1;
                 pplCopy.shift();
             } else {
-                console.log("else")
-                let n = pplCopy[0] - lim;
+                let n = lim - pplCopy[0];
                 while (n > 0) {
-                    console.log(n);
                     if (pplCopy.includes(n)) {
                         boat += 1;
                         console.log("hello")
@@ -29,6 +27,8 @@ function savePeopleBoat(ppl, lim) {
                         n--;
                     }
                 }
+                boat += 1;
+                pplCopy.shift();
             }
             
             
@@ -39,5 +39,5 @@ function savePeopleBoat(ppl, lim) {
 }
 
 // console.log('Input: ', "people = [1,2], limit = 3" , 'Expected Output: ', 1, 'Output', savePeopleBoat([1,2], 3));
-// console.log('Input: ', "people = [3,2,2,1], limit = 3" , 'Expected Output: ', 1, 'Output', savePeopleBoat([3,2,2,1], 3));
-console.log('Input: ', "people = [3,5,3,4], limit = 5" , 'Expected Output: ', 1, 'Output', savePeopleBoat([3,5,3,4], 5));
+// console.log('Input: ', "people = [3,2,2,1], limit = 3" , 'Expected Output: ', 3, 'Output', savePeopleBoat([3,2,2,1], 3));
+console.log('Input: ', "people = [3,5,3,4], limit = 5" , 'Expected Output: ', 4, 'Output', savePeopleBoat([3,5,3,4], 5));
