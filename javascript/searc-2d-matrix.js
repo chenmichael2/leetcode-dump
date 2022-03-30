@@ -1,6 +1,6 @@
 // daily programmer 20220330
 
-function search2dMatrix() {
+function search2dMatrix(matrix, target) {
 
 }
 
