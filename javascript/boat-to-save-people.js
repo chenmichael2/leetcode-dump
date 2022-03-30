@@ -17,10 +17,12 @@ function savePeopleBoat(ppl, lim) {
                 while (n > 0) {
                     if (pplCopy.includes(n)) {
                         // boat += 1;
-                        console.log("hello")
+                        // console.log("hello")
                         let index = pplCopy.indexOf(n);
                         console.log(index);
+                        console.log(pplCopy)
                         pplCopy.slice(index, 1);
+                        console.log(pplCopy)
                         // pplCopy.shift();
                         n = 0;
                     } else {
