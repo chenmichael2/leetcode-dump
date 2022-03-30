@@ -19,7 +19,7 @@ function savePeopleBoat(ppl, lim) {
                         console.log("hello")
                         let index = pplCopy.indexOf(n);
                         console.log(index);
-                        pplCopy.spice(index, 1);
+                        pplCopy.slice(index, 1);
                         pplCopy.shift();
                         n = 0;
                     } else {
