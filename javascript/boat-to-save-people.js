@@ -14,20 +14,21 @@ function savePeopleBoat(ppl, lim) {
             } else {
                 let n = pplCopy[0] - lim;
                 console.log(pplCopy[0], lim, n)
+                while (n > 0) {
+                    if (pplCopy.includes(n)) {
+                        boat += 1;
+                        let index = pplCopy.indexOf(n);
+                        console.log(index);
+                        pplCopy.spice(index, 1);
+                        pplCopy.shift();
+                    } else {
+                        n--;
+                    }
+                }
             }
             
             
-            // while (n > 0) {
-            //     if (pplCopy.includes(n)) {
-            //         boat += 1;
-            //         let index = pplCopy.indexOf(n);
-            //         console.log(index);
-            //         pplCopy.spice(index, 1);
-            //         pplCopy.shift();
-            //     } else {
-            //         n--;
-            //     }
-            // }
+            
         }
     }
     return boat;
