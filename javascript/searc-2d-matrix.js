@@ -9,7 +9,7 @@ function search2dMatrix(matrix, target) {
     function findTheArray(matrix, target, firstArrIndex, lastArrIndex) {
         // go to the middle array and see if the target is less than or greater than or in the matrix.
         let middleArr = matrix[Math.floor((firstArrIndex + lastArrIndex)/2)];
-        //
+        // this line cannot read 0
         let firstNum = middleArr[0];
         let lastNum = middleArr[middleArr.length - 1];
         if (firstNum < target && target < lastNum) {
