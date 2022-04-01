@@ -9,12 +9,12 @@ function search2dMatrix(matrix, target) {
     function findTheArray(matrix, target, firstArrIndex, lastArrIndex) {
         // go to the middle array and see if the target is less than or greater than or in the matrix.
         
-        let middleArr = matrix[Math.floor((firstArrIndex + lastArrIndex)/2)];
+        let middleArrIndex = Math.floor((firstArrIndex + lastArrIndex)/2);
         console.log(firstArrIndex, lastArrIndex); //this is undefined when i go throught the second time
         // this line cannot read 0 on the second go
         console.log('line 13', middleArr[0])
-        let firstNum = middleArr[0];
-        let lastNum = middleArr[middleArr.length - 1];
+        let firstNum = matrix[middleArrIndex][0];
+        let lastNum = matrix[middleArrIndex][matrix[middleArrIndex].length];
         if (firstNum < target && target < lastNum) {
             console.log("i'm in this array");
             // [] find in this array
