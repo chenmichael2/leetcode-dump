@@ -4,8 +4,10 @@ function search2dMatrix(matrix, target) {
     // for loop through each array and find the first and last index of each array. 
     // see if the target number is in the array or not
     // see if the array includes and return true or false
+    
+    // binary search
     function findTheArray(matrix, target, start, end) {
-        
+
     }
 }
 
