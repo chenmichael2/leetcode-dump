@@ -8,8 +8,9 @@ function search2dMatrix(matrix, target) {
     // [] binary search
     function findTheArray(matrix, target, firstArrIndex, lastArrIndex) {
         // go to the middle array and see if the target is less than or greater than or in the matrix.
+        
         let middleArr = matrix[Math.floor((firstArrIndex + lastArrIndex)/2)];
-        console.log(middleArr)
+        console.log(firstArrIndex, lastArrIndex); //this is undefined when i go throught the second time
         // this line cannot read 0 on the second go
         console.log('line 13', middleArr[0])
         let firstNum = middleArr[0];
@@ -20,9 +21,11 @@ function search2dMatrix(matrix, target) {
         } else {
             console.log("I still need to find the array")
             if (target > lastNum) {
-                findTheArray(matrix, target, middleArr + 1, lastArrIndex);
+                console.log(">");
+                findTheArray(matrix, target, middleArr.length - 1, lastArrIndex);
             } else {
-                findTheArray(matrix, target, firstArrIndex, middleArr - 1);
+                console.log("<")
+                findTheArray(matrix, target, firstArrIndex, middleArr.length - 1);
             }
         }
     }
