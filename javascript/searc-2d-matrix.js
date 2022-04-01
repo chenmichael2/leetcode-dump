@@ -17,6 +17,11 @@ function search2dMatrix(matrix, target) {
         if (firstNum < target && target < lastNum || firstArrIndex === lastArrIndex) {
             console.log("i'm in this array");
             // [] find in this array
+            if (matrix[middleArrIndex].includes(target)) {
+                return true;
+            } else {
+                return false;
+            }
         } else {
             console.log("I still need to find the array")
             if (target > lastNum) {
