@@ -12,7 +12,6 @@ function search2dMatrix(matrix, target) {
         let middleArrIndex = Math.floor((firstArrIndex + lastArrIndex)/2);
         console.log(firstArrIndex, lastArrIndex); //this is undefined when i go throught the second time
         // this line cannot read 0 on the second go
-        console.log('line 13', middleArr[0])
         let firstNum = matrix[middleArrIndex][0];
         let lastNum = matrix[middleArrIndex][matrix[middleArrIndex].length];
         if (firstNum < target && target < lastNum) {
