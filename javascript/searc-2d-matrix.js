@@ -1,18 +1,19 @@
 // daily programmer 20220330
 
 function search2dMatrix(matrix, target) {
-    // for loop through each array and find the first and last index of each array. 
-    // see if the target number is in the array or not
-    // see if the array includes and return true or false
+    // [] for loop through each array and find the first and last index of each array. 
+    // [] see if the target number is in the array or not
+    // [] see if the array includes and return true or false
 
-    // binary search
-    function findTheArray(matrix, target) {
+    // [] binary search
+    function findTheArray(matrix, target, lastArrIndex, firstArrIndex) {
         // go to the middle array and see if the target is less than or greater than or in the matrix.
-        let middleArr = matrix[Math.floor((matrix.length)/2)];
+        let middleArr = matrix[Math.floor((firstArrIndex + lastArrIndex)/2)];
         let firstNum = middleArr[0];
         let lastNum = middleArr[middleArr.length - 1];
         if (firstNum < target && target < lastNum) {
             console.log("i'm in this array");
+            // [] find in this array
         } else {
             console.log("I still need to find the array")
         }
