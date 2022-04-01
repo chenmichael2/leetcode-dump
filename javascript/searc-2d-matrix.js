@@ -17,9 +17,9 @@ function search2dMatrix(matrix, target) {
         } else {
             console.log("I still need to find the array")
             if (target > lastNum) {
-                findTheArray(matrix, target, middleArr + 1, matrix.length - 1)
+                findTheArray(matrix, target, middleArr + 1, lastArrIndex);
             } else {
-                findTheArray(matrix, target, )
+                findTheArray(matrix, target, firstArrIndex, middleArr - 1);
             }
         }
     }
