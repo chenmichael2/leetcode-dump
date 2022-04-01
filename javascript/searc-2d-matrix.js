@@ -8,8 +8,10 @@ function search2dMatrix(matrix, target) {
     // binary search
     function findTheArray(matrix, target) {
         // go to the middle array and see if the target is less than or greater than or in the matrix.
-        let middleArrIndex = Math.floor((matrix.length)/2);
-        
+        let middleArr = matrix[Math.floor((matrix.length)/2)];
+        let firstNum = middleArr[0];
+        let lastNum = middleArr[middleArr.length - 1];
+        console.log(firstNum, lastNum);
     }
     findTheArray(matrix, target);
 
