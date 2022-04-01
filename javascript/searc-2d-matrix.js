@@ -6,7 +6,7 @@ function search2dMatrix(matrix, target) {
     // [] see if the array includes and return true or false
 
     // [] binary search
-    function findTheArray(matrix, target, lastArrIndex, firstArrIndex) {
+    function findTheArray(matrix, target, firstArrIndex, lastArrIndex) {
         // go to the middle array and see if the target is less than or greater than or in the matrix.
         let middleArr = matrix[Math.floor((firstArrIndex + lastArrIndex)/2)];
         let firstNum = middleArr[0];
@@ -16,9 +16,14 @@ function search2dMatrix(matrix, target) {
             // [] find in this array
         } else {
             console.log("I still need to find the array")
+            if (target > lastNum) {
+                findTheArray(matrix, target, middleArr + 1, matrix.length - 1)
+            } else {
+                findTheArray(matrix, target, )
+            }
         }
     }
-    findTheArray(matrix, target);
+    findTheArray(matrix, target, 0, matrix.length - 1);
 
 }
 
