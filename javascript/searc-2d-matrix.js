@@ -11,7 +11,11 @@ function search2dMatrix(matrix, target) {
         let middleArr = matrix[Math.floor((matrix.length)/2)];
         let firstNum = middleArr[0];
         let lastNum = middleArr[middleArr.length - 1];
-        console.log(firstNum, lastNum);
+        if (firstNum < target < lastNum) {
+            console.log("i'm in this array");
+        } else {
+            console.log("I still need to find the array")
+        }
     }
     findTheArray(matrix, target);
 
