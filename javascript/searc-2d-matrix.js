@@ -14,18 +14,18 @@ function search2dMatrix(matrix, target) {
         // this line cannot read 0 on the second go
         let firstNum = matrix[middleArrIndex][0];
         let lastNum = matrix[middleArrIndex][matrix[middleArrIndex].length];
-        if (firstNum < target && target < lastNum) {
+        if (firstNum < target && target < lastNum || firstArrIndex === lastArrIndex) {
             console.log("i'm in this array");
             // [] find in this array
         } else {
             console.log("I still need to find the array")
             if (target > lastNum) {
                 console.log(">");
-                findTheArray(matrix, target, middleArr.length - 1, lastArrIndex);
+                findTheArray(matrix, target, middleArrIndex, lastArrIndex);
             } else {
                 console.log("<");
                 //there is an issue here and it not ending
-                findTheArray(matrix, target, firstArrIndex, middleArr.length - 1);
+                findTheArray(matrix, target, firstArrIndex, middleArrIndex);
             }
         }
     }
