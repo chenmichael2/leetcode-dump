@@ -24,7 +24,8 @@ function search2dMatrix(matrix, target) {
                 console.log(">");
                 findTheArray(matrix, target, middleArr.length - 1, lastArrIndex);
             } else {
-                console.log("<")
+                console.log("<");
+                //there is an issue here and it not ending
                 findTheArray(matrix, target, firstArrIndex, middleArr.length - 1);
             }
         }
