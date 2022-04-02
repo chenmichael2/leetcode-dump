@@ -4,4 +4,4 @@ function validPalindrome() {
 
 }
 
-console.log('Input: ' , 'Expected Output: ', 'Output: ', search2dMatrix());
+console.log('Input: ' , 'Expected Output: ', 'Output: ', validPalindrome());
