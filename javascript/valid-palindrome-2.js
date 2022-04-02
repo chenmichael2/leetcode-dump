@@ -1,6 +1,6 @@
 // leetcode problem #680
 
-function validPalindrome() {
+function validPalindrome(s) {
 
 }
 
