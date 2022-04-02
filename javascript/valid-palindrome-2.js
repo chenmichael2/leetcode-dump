@@ -4,4 +4,4 @@ function validPalindrome(s) {
 
 }
 
-console.log('Input: ' , 'Expected Output: ', 'Output: ', validPalindrome());
+console.log('Input: s = "aba"' , 'Expected Output: true', 'Output: ', validPalindrome("aba"));
