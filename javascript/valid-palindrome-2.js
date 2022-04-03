@@ -9,7 +9,7 @@ function validPalindrome(s) {
         let middleIndex = ((s.length + 1)/2) - 1;
         console.log(middleIndex);
         let firstHalf = s.substr(0, middleIndex);
-        let secondHalf
+        let secondHalf = s.substring(middleIndex, s.length)
     }
 }
 
