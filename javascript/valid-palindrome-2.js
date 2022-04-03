@@ -5,7 +5,7 @@ function validPalindrome(s) {
     if (s.length % 2 === 0) {
         
     } else {
-        
+        console.log("this is odd")
     }
 }
 
