@@ -10,8 +10,9 @@ function validPalindrome(s) {
         console.log(middleIndex);
         let firstHalf = s.substr(0, middleIndex);
         let secondHalf = s.substring(middleIndex + 1, s.length);
-        let reverse = secondHalf.split("").reverse().join();
+        let reverse = secondHalf.split("").reverse().join("");
         console.log(reverse);
+        console.log(firstHalf);
     }
 }
 
