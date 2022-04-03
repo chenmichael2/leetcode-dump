@@ -13,6 +13,11 @@ function validPalindrome(s) {
         let reverse = secondHalf.split("").reverse().join("");
         console.log(reverse);
         console.log(firstHalf);
+        if (reverse === firstHalf) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
 
