@@ -2,6 +2,9 @@
 
 function validPalindrome(s) {
     // [] see if s is even or odd length
+    if (s.length % 2 === 0) {
+        
+    }
 }
 
 console.log('Input: s = "aba"' , 'Expected Output: true', 'Output: ', validPalindrome("aba"));
