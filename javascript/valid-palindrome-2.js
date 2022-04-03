@@ -4,6 +4,8 @@ function validPalindrome(s) {
     // [] see if s is even or odd length
     if (s.length % 2 === 0) {
         
+    } else {
+        
     }
 }
 
