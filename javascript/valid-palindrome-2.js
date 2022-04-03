@@ -6,6 +6,8 @@ function validPalindrome(s) {
         console.log("this is even");
     } else {
         console.log("this is odd");
+        let middleIndex = s.length/2;
+        console.log(middleIndex)
     }
 }
 
