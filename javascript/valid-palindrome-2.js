@@ -3,9 +3,9 @@
 function validPalindrome(s) {
     // [] see if s is even or odd length
     if (s.length % 2 === 0) {
-        console.log("this is even")
+        console.log("this is even");
     } else {
-        console.log("this is odd")
+        console.log("this is odd");
     }
 }
 
