@@ -10,7 +10,11 @@ function validPalindrome(s) {
         console.log(firstHalf);
         let secondHalf = s.substring(middleRightIndex, s.length);
         let reverse = secondHalf.split("").reverse().join("");
-        console.log(reverse);
+        if (firstHalf === reverse) {
+            return true;
+        } else {
+            return false;
+        }
     } else {
         console.log("this is odd");
         let middleIndex = ((s.length + 1)/2) - 1;
