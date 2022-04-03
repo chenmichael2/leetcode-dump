@@ -9,7 +9,8 @@ function validPalindrome(s) {
         let firstHalf = s.substring(0, middleRightIndex);
         console.log(firstHalf);
         let secondHalf = s.substring(middleRightIndex, s.length);
-        console.log(secondHalf);
+        let reverse = secondHalf.split("").reverse().join("");
+        console.log(reverse);
     } else {
         console.log("this is odd");
         let middleIndex = ((s.length + 1)/2) - 1;
