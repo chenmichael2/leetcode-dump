@@ -17,7 +17,7 @@ function swapNode(head, k) {
             if (this.root === null) {
                 newNode = this.root;
             } else {
-                
+                insertNode();
             }
         }
     }
