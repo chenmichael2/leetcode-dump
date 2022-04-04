@@ -12,10 +12,12 @@ function swapNode(head, k) {
             this.root = null;
         }
 
-        insertNode(data) {
+        insert(data) {
             let newNode = new Node(data);
             if (this.root === null) {
                 newNode = this.root;
+            } else {
+                
             }
         }
     }
