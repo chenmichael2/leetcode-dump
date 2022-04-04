@@ -8,7 +8,7 @@ function swapNode(head, k) {
     }
 
     class SLL {
-
+        
     }
 }
 
