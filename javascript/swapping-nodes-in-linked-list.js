@@ -1,6 +1,6 @@
 function swapNode(head, k) {
-    class sllNode(val, next) {
-        
+    class sllNode {
+
     }
 }
 
