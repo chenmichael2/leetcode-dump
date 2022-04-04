@@ -1,7 +1,9 @@
 function swapNode(head, k) {
-    class sllNode {
+    class Node {
         constructor(data) {
-
+            this.data = data;
+            this.next = null;
+            this.prev = null;
         }
     }
 }
