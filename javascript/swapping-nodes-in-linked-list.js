@@ -2,4 +2,4 @@ function swapNode(head, k) {
 
 }
 
-console.log('Input: "' , 'Expected Output: false', 'Output: ', validPalindrome());
+console.log('Input: "' , 'Expected Output: ', 'Output: ', validPalindrome());
