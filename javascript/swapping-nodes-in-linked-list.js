@@ -9,6 +9,10 @@ function swapNode(head, k) {
 
     class SLL {
         construct() {
+            this.root = null;
+        }
+
+        insertNode() {
             
         }
     }
