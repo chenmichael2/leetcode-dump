@@ -1,0 +1,3 @@
+function swapNode(head, k) {
+    
+}
