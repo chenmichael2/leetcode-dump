@@ -1,6 +1,8 @@
 function swapNode(head, k) {
     class sllNode {
+        constructor(data) {
 
+        }
     }
 }
 
