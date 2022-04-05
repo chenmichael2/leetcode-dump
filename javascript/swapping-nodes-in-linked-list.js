@@ -8,7 +8,8 @@ function swapNode(head, k) {
 
     class SLL {
         construct() {
-            this.root = null;
+            this.head = null;
+            this.tail = null;
         }
 
         insert(data) {
