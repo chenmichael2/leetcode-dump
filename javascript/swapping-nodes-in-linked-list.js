@@ -12,7 +12,9 @@ function swapNode(head, k) {
             this.tail = null;
         }
 
-        
+        push(val) {
+            
+        }
     }
 }
 
