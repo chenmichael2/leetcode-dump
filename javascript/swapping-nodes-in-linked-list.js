@@ -13,7 +13,7 @@ function swapNode(head, k) {
         }
 
         push(val) {
-            
+            let newNode = new Node(val);
         }
     }
 }
