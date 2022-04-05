@@ -15,7 +15,10 @@ function swapNode(head, k) {
         push(val) {
             let newNode = new Node(val);
 
-            if (!this.head)
+            if (!this.head) {
+                this.head = newNode;
+                this.tail = this.head;
+            }
         }
     }
 }
