@@ -11,6 +11,7 @@ function swapNode(head, k) {
             this.head = null;
             this.tail = null;
         }
+
         
     }
 }
