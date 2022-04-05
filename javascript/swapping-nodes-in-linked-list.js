@@ -21,7 +21,9 @@ function swapNode(head, k) {
             }
         }
 
-        insertNode()
+        insertNode() {
+            
+        }
     }
 }
 
