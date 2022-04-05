@@ -1,11 +1,21 @@
 // 11 leetcode
 
 function maxArea(height) {
-    let x = 0;
-    for (let i = 0; i < height.length; i++) {
-        x += height[i];
+    let result = 0,
+    left = 0,
+    right = height.length - 1;
+
+    while (left < right) {
+        let smallestSide = Math.min(height[left], height[right]);
+        let area = (right - left) * smallestSide;
+
+        if (area > result) result = area;
+
+        if (height[left] < height[right]) left++;
+        else right--;
     }
-    return x;
+
+    return result;
 }
 
 console.log('Input: height = [1,8,6,2,5,4,8,3,7]' , 'Expected Output: 49', 'Output: ', maxArea([1,8,6,2,5,4,8,3,7]));
