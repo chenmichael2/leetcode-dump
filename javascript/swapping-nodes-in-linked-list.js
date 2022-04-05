@@ -3,7 +3,6 @@ function swapNode(head, k) {
         constructor(data) {
             this.data = data;
             this.next = null;
-            this.prev = null;
         }
     }
 
@@ -22,7 +21,7 @@ function swapNode(head, k) {
         }
 
         insertNode() {
-            
+
         }
     }
 }
