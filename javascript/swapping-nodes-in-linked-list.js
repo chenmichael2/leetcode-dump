@@ -7,7 +7,7 @@ function swapNode(head, k) {
     }
 
     class SLL {
-        construct() {
+        constructor() {
             this.head = null;
             this.tail = null;
         }
