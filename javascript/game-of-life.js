@@ -1,6 +1,6 @@
 // 289 leetcode game of life
 
-function gameofLife() {
+function gameofLife(board) {
 
 }
 
