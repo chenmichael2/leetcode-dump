@@ -4,4 +4,4 @@ function gameofLife() {
 
 }
 
-console.log('Input: ' , 'Expected Output: ', 'Output: ', maxArea());
+console.log('Input: ' , 'Expected Output: ', 'Output: ', gameofLife());
