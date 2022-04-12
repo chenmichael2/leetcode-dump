@@ -1,5 +1,7 @@
 // 289 leetcode game of life
 
+// https://leetcode.com/problems/game-of-life/
+
 // Any live cell with fewer than two live neighbors dies as if caused by under-population.
 // Any live cell with two or three live neighbors lives on to the next generation.
 // Any live cell with more than three live neighbors dies, as if by over-population.
