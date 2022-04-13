@@ -18,7 +18,7 @@ function gameofLife(board) {
     let neighbors = [];
     let rows = board.length;
     for (let i = 0; i < rows; i++) {
-        // 
+        // grab the row
     }
 }
 
