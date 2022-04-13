@@ -27,7 +27,7 @@ function gameofLife(board) {
             // grab row before and row after
             let rowBefore = board[i - 1];
             if (rowBefore === undefined) {
-                rowBefore = Array(row.length).fill(null);
+                rowBefore = Array(row.length).fill(-1);
             }
             console.log(rowBefore);
         }
