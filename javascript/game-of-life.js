@@ -20,7 +20,9 @@ function gameofLife(board) {
     for (let i = 0; i < rows; i++) {
         // grab the row 
         let row = board[i];
-        console.log(row);
+        for (let j = 0; j < row.length; j++) {
+            
+        }
     }
 }
 
