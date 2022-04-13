@@ -21,7 +21,8 @@ function gameofLife(board) {
         // grab the row 
         let row = board[i];
         for (let j = 0; j < row.length; j++) {
-            
+            let target = row[j];
+            console.log(target);
         }
     }
 }
