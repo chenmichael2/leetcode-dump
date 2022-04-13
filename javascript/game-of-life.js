@@ -24,6 +24,8 @@ function gameofLife(board) {
         for (let j = 0; j < row.length; j++) {
             let target = row[j];
             console.log(target);
+            // grab row before and row after
+            
         }
     }
 }
