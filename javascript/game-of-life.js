@@ -29,7 +29,10 @@ function gameofLife(board) {
             if (rowBefore === undefined) {
                 rowBefore = Array(row.length).fill(-1);
             }
-            console.log(rowBefore);
+            if (rowAfter === undefined) {
+                rowAfter = Array(row.length).fill(-1);
+            }
+            console.log(rowBefore, rowAfter);
         }
     }
 }
