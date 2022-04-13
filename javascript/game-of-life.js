@@ -14,11 +14,12 @@
 // Any 1 with > 3 neighbors = 0
 // Any 0 with = 3 neighbors = 1
 function gameofLife(board) {
-    let result = board;
+    let result = [];
     let neighbors = [];
     let rows = board.length;
     for (let i = 0; i < rows; i++) {
         // grab the row 
+        let row = board[i];
     }
 }
 
