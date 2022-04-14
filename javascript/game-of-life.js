@@ -22,7 +22,6 @@ function gameofLife(board) {
         let row = board[i];
         for (let j = 0; j < row.length; j++) {
             let target = row[j];
-            
             // grab row before and row after
             let rowBefore = board[i - 1];
             let rowAfter = board[i + 1];
