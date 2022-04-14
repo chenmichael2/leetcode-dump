@@ -35,6 +35,7 @@ function gameofLife(board) {
             // [] grab top, bottom, left, right
             let top
             let bottom
+            let
             // [] grab top right, top left, bottom right, bottom left
             // [] adding the if statements if they don't exist
         }
