@@ -33,6 +33,7 @@ function gameofLife(board) {
                 rowAfter = Array(row.length).fill(-1);
             }
             console.log(rowBefore, rowAfter);
+            
         }
     }
 }
