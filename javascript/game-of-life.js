@@ -31,7 +31,7 @@ function gameofLife(board) {
             if (rowAfter === undefined) {
                 rowAfter = Array(row.length).fill(-1);
             }
-            console.log(target, rowBefore, rowAfter);
+            console.log(target, rowBefore, row, rowAfter);
 
         }
     }
