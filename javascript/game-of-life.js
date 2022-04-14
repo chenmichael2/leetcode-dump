@@ -32,7 +32,7 @@ function gameofLife(board) {
                 rowAfter = Array(row.length).fill(-1);
             }
             console.log(target, rowBefore, row, rowAfter);
-            // []
+            // [] grab top, bottom, left, right
         }
     }
 }
