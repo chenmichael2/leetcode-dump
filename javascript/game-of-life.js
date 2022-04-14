@@ -33,6 +33,7 @@ function gameofLife(board) {
             }
             console.log(target, rowBefore, row, rowAfter);
             // [] grab top, bottom, left, right
+            let 
             // [] grab top right, top left, bottom right, bottom left
             // [] adding the if statements if they don't exist
         }
