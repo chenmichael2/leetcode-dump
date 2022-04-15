@@ -37,7 +37,7 @@ function gameofLife(board) {
             let bottom = rowAfter[j];
             let left = row[j - 1];
             let right = row[j + 1];
-            //
+            // 
             // [] grab top right, top left, bottom right, bottom left
             // [] adding the if statements if they don't exist
         }
