@@ -48,7 +48,6 @@ function gameofLife(board) {
             if (left === undefined) {
                 left = -1;
             }
-            console.log(top, right, bottom, left);
             let topLeft = rowBefore[j - 1];
             let topRight = rowBefore[j + 1];
             let bottomLeft = rowAfter[j - 1];
@@ -65,9 +64,11 @@ function gameofLife(board) {
             if (bottomRight === undefined) {
                 bottomRight = -1;
             }
-            console.log(topLeft, topRight, bottomLeft, bottomRight);
             // push into neighbors array
             // read neighbors array and then change the target to what it needs to be
+            neighbors.push(top, right, bottom, left, topLeft, topRight, bottomLeft, bottomRight);
+            console.log(neighbors);
+            neighbors = [];
         }
     }
 }
