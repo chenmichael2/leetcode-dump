@@ -46,8 +46,8 @@ function gameofLife(board) {
             if (bottom === undefined) {
                 bottom = -1;
             }
-            if (top === undefined) {
-                top = -1;
+            if (left === undefined) {
+                left = -1;
             }
             console.log(top, right, bottom, left);
             // 
