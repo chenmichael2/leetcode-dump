@@ -64,8 +64,8 @@ function gameofLife(board) {
             if (bottomLeft === undefined) {
                 bottomLeft = -1;
             }
-            if (leftRight === undefined) {
-                leftRight = -1;
+            if (bottomRight === undefined) {
+                bottomRight = -1;
             }
             // 
             // [] grab top right, top left, bottom right, bottom left
