@@ -66,9 +66,11 @@ function gameofLife(board) {
             }
             // push into neighbors array
             // read neighbors array and then change the target to what it needs to be
-            neighbors.push(top, right, bottom, left, topLeft, topRight, bottomLeft, bottomRight);
-            console.log(neighbors);
-            neighbors = [];
+            //
+            // neighbors.push(top, right, bottom, left, topLeft, topRight, bottomLeft, bottomRight);
+            // neighbors.sort()
+            // console.log(neighbors);
+            // neighbors = [];
         }
     }
 }
