@@ -66,6 +66,8 @@ function gameofLife(board) {
                 bottomRight = -1;
             }
             console.log(topLeft, topRight, bottomLeft, bottomRight);
+            // push into neighbors array
+            // read neighbors array and then change the target to what it needs to be
         }
     }
 }
