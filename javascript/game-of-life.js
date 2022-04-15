@@ -54,7 +54,7 @@ function gameofLife(board) {
             let topRight = rowBefore[j + 1];
             let bottomLeft = rowAfter[j - 1];
             let bottomRight = rowAfter[j + 1];
-            console.log(topLeft, topRight, bottomLeft, bottomRight);
+            
             if (topLeft === undefined) {
                 topLeft = -1;
             }
@@ -67,6 +67,7 @@ function gameofLife(board) {
             if (bottomRight === undefined) {
                 bottomRight = -1;
             }
+            console.log(topLeft, topRight, bottomLeft, bottomRight);
         }
     }
 }
