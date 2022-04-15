@@ -16,6 +16,7 @@
 function gameofLife(board) {
     let result = [];
     let neighbors = [];
+    let count = 0;
     let rows = board.length;
     for (let i = 0; i < rows; i++) {
         // grab the row 
@@ -36,33 +37,33 @@ function gameofLife(board) {
             let right = row[j + 1];
             let bottom = rowAfter[j];
             let left = row[j - 1];
-            if (top === undefined) {
-                top = -1;
+            if (top === 1) {
+                count += 1;
             }
-            if (right === undefined) {
-                right = -1;
+            if (right === 1) {
+                count += 1;
             }
-            if (bottom === undefined) {
-                bottom = -1;
+            if (bottom === 1) {
+                count += 1;
             }
-            if (left === undefined) {
-                left = -1;
+            if (left === 1) {
+                count += 1;
             }
             let topLeft = rowBefore[j - 1];
             let topRight = rowBefore[j + 1];
             let bottomLeft = rowAfter[j - 1];
             let bottomRight = rowAfter[j + 1];
-            if (topLeft === undefined) {
-                topLeft = -1;
+            if (topLeft === 1) {
+                count += 1;
             }
-            if (topRight === undefined) {
-                topRight = -1;
+            if (topRight === 1) {
+                count += 1;
             }
-            if (bottomLeft === undefined) {
-                bottomLeft = -1;
+            if (bottomLeft === 1) {
+                count += 1;
             }
-            if (bottomRight === undefined) {
-                bottomRight = -1;
+            if (bottomRight === 1) {
+                count += 1;
             }
             // push into neighbors array
             // read neighbors array and then change the target to what it needs to be
