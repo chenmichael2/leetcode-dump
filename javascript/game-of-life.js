@@ -34,10 +34,10 @@ function gameofLife(board) {
             console.log(target, rowBefore, row, rowAfter);
             // [] grab top, bottom, left, right
             let top = rowBefore[j];
+            let right = row[j + 1];
             let bottom = rowAfter[j];
             let left = row[j - 1];
-            let right = row[j + 1];
-            console.log(top, right, bottom, left)
+            console.log(top, right, bottom, left);
             // 
             // [] grab top right, top left, bottom right, bottom left
             // [] adding the if statements if they don't exist
