@@ -54,6 +54,19 @@ function gameofLife(board) {
             let topRight = rowBefore[j + 1];
             let bottomLeft = rowAfter[j - 1];
             let bottomRight = rowAfter[j + 1];
+            console.log(topLeft, topRight, bottomLeft, bottomRight);
+            if (topLeft === undefined) {
+                topLeft = -1;
+            }
+            if (topRight === undefined) {
+                topRight = -1;
+            }
+            if (bottomLeft === undefined) {
+                bottomLeft = -1;
+            }
+            if (left === undefined) {
+                left = -1;
+            }
             // 
             // [] grab top right, top left, bottom right, bottom left
             // [] adding the if statements if they don't exist
