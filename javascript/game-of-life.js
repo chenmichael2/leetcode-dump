@@ -67,9 +67,6 @@ function gameofLife(board) {
             if (bottomRight === undefined) {
                 bottomRight = -1;
             }
-            // 
-            // [] grab top right, top left, bottom right, bottom left
-            // [] adding the if statements if they don't exist
         }
     }
 }
