@@ -50,7 +50,10 @@ function gameofLife(board) {
                 left = -1;
             }
             console.log(top, right, bottom, left);
-            let
+            let topLeft
+            let topRight
+            let bottomLeft
+            let bottomRight
             // 
             // [] grab top right, top left, bottom right, bottom left
             // [] adding the if statements if they don't exist
