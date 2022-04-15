@@ -50,8 +50,8 @@ function gameofLife(board) {
                 left = -1;
             }
             console.log(top, right, bottom, left);
-            let topLeft = 
-            let topRight = 
+            let topLeft = rowBefore[j - 1];
+            let topRight = rowBefore[j + 1];
             let bottomLeft = 
             let bottomRight = 
             // 
