@@ -37,6 +37,9 @@ function gameofLife(board) {
             let right = row[j + 1];
             let bottom = rowAfter[j];
             let left = row[j - 1];
+            if (top === undefined) {
+                top = -1;
+            }
             console.log(top, right, bottom, left);
             // 
             // [] grab top right, top left, bottom right, bottom left
