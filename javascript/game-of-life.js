@@ -74,7 +74,13 @@ function gameofLife(board) {
             // Any 1 with > 3 neighbors = 0
             // Any 0 with = 3 neighbors = 1
             if (target === 1) {
+                let number = 0;
                 console.log('target = 1', target);
+                if (neighbors.forEach(x => {
+                    if (x === 0) {
+                        number += 1;
+                    }
+                }))
             } else {
                 console.log('target = 0', target);
             }
