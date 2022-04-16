@@ -90,6 +90,8 @@ function gameofLife(board) {
             }
             count = 0;
         }
+        console.log(newRow);
+        newRow = [];
     }
 }
 
