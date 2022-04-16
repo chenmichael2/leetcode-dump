@@ -75,6 +75,11 @@ function gameofLife(board) {
             // Any 0 with = 3 neighbors = 1
             if (target === 1) {
                 console.log('target = 1', target);
+                if (count < 2 || count > 3) {
+                    newRow.push(0);
+                } else {
+                    newRow.push(1);
+                }
             } else {
                 console.log('target = 0', target);
             }
