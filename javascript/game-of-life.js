@@ -76,9 +76,9 @@ function gameofLife(board) {
             if (target === 1) {
                 console.log('target = 1', target);
                 if (count < 2 || count > 3) {
-                    newRow.push(0);
-                } else {
                     newRow.push(1);
+                } else {
+                    newRow.push(0);
                 }
             } else {
                 console.log('target = 0', target);
