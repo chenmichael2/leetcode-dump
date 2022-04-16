@@ -72,6 +72,7 @@ function gameofLife(board) {
             // neighbors.sort()
             // console.log(neighbors);
             // neighbors = [];
+            console.log(count);
             count = 0;
         }
     }
