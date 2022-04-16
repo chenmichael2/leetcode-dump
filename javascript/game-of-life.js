@@ -20,6 +20,7 @@ function gameofLife(board) {
     let rows = board.length;
     for (let i = 0; i < rows; i++) {
         // grab the row 
+        let newRow = []
         let row = board[i];
         for (let j = 0; j < row.length; j++) {
             let target = row[j];
@@ -73,6 +74,7 @@ function gameofLife(board) {
             // console.log(neighbors);
             // neighbors = [];
             console.log(count);
+            
             count = 0;
         }
     }
