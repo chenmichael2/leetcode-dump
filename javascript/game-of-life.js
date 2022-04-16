@@ -82,6 +82,11 @@ function gameofLife(board) {
                 }
             } else {
                 console.log('target = 0', target);
+                if (count = 3) {
+                    newRow.push(1);
+                } else {
+                    newRow.push(0);
+                }
             }
             count = 0;
         }
