@@ -32,7 +32,7 @@ function gameofLife(board) {
             if (rowAfter === undefined) {
                 rowAfter = Array(row.length).fill(-1);
             }
-            console.log(target, rowBefore, row, rowAfter);
+            // console.log(target, rowBefore, row, rowAfter);
             let top = rowBefore[j];
             let right = row[j + 1];
             let bottom = rowAfter[j];
