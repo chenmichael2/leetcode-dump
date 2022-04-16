@@ -7,12 +7,6 @@
 // Any live cell with more than three live neighbors dies, as if by over-population.
 // Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
-
-// // Translating the upper
-// Any 1 with < 2 neighbors = 0
-// Any 1 with 2 - 3 neighbors = 1
-// Any 1 with > 3 neighbors = 0
-// Any 0 with = 3 neighbors = 1
 function gameofLife(board) {
     let result = [];
     let neighbors = [];
@@ -74,7 +68,11 @@ function gameofLife(board) {
             // console.log(neighbors);
             // neighbors = [];
             console.log(count);
-            
+            // // Translating the upper
+            // Any 1 with < 2 neighbors = 0
+            // Any 1 with 2 - 3 neighbors = 1
+            // Any 1 with > 3 neighbors = 0
+            // Any 0 with = 3 neighbors = 1
             count = 0;
         }
     }
