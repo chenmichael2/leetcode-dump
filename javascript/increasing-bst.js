@@ -9,11 +9,11 @@ class Node {
 }
 
 class BST {
-    constructor(root) {
-        this.root = root;
+    constructor() {
+        this.root = null;
     }
     insert(data) {
-        
+        if (this.root)
     }
 }
 
