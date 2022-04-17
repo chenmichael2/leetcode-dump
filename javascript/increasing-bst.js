@@ -12,7 +12,7 @@ class BST {
     constructor() {
         this.root = null;
     }
-    
+
     insert(data) {
         if (this.root === null) {
             this.root = data;
@@ -20,6 +20,7 @@ class BST {
             insertNode();
         }
     }
+
 }
 
 function increaseBST(tree) {
