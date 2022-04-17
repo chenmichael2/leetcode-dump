@@ -1,6 +1,11 @@
 // 897 Increasing Order Search Tree
 
-function increaseBST(board) {
+
+class BST {
+
+}
+
+function increaseBST(tree) {
 
 }
 
