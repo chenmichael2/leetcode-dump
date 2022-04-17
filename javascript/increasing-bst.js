@@ -1,5 +1,5 @@
 // 897 Increasing Order Search Tree
 
-function gameofLife(board) {
-    
+function increaseBST(board) {
+
 }
