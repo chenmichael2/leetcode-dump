@@ -21,6 +21,7 @@ class BST {
         }
     }
 
+    
 }
 
 function increaseBST(tree) {
