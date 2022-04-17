@@ -13,7 +13,9 @@ class BST {
         this.root = null;
     }
     insert(data) {
-        if (this.root === null)
+        if (this.root === null) {
+            
+        }
     }
 }
 
