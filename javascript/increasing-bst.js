@@ -21,7 +21,9 @@ class BST {
         }
     }
 
-    
+    insertNode() {
+        let node = new Node(data);
+    }
 }
 
 function increaseBST(tree) {
