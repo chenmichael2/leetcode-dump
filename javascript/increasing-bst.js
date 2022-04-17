@@ -2,7 +2,7 @@
 
 
 class BST {
-
+    insert(data)
 }
 
 function increaseBST(tree) {
