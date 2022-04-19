@@ -2,5 +2,6 @@
 // https://leetcode.com/problems/longest-palindromic-substring/
 
 function longestPalindrome() {
-    
+
 }
+
