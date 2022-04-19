@@ -5,4 +5,4 @@ function longestPalindrome() {
 
 }
 
-console.log('Input: ' , 'Expected Output: ', 'Output: ', gameofLife())
+console.log('Input: ' , 'Expected Output: ', 'Output: ', longestPalindrome())
