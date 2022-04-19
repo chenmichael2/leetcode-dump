@@ -5,4 +5,4 @@ function longestPalindrome() {
 
 }
 
-console.log('Input: board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]' , 'Expected Output: ', 'Output: ', gameofLife())
+console.log('Input: ' , 'Expected Output: ', 'Output: ', gameofLife())
