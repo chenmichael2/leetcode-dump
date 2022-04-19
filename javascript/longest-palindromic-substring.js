@@ -5,4 +5,4 @@ function longestPalindrome() {
 
 }
 
-console.log('Input: s = "babad"' , 'Expected Output: ', 'Output: ', longestPalindrome())
+console.log('Input: s = "babad"' , 'Expected Output: "bab"', 'Output: ', longestPalindrome())
