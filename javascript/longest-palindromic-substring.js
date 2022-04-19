@@ -3,6 +3,7 @@
 
 function longestPalindrome(s) {
     let answer = "";
+    
 }
 
 console.log('Input: s = "babad"' , 'Expected Output: "bab"', 'Output: ', longestPalindrome("babad"));
