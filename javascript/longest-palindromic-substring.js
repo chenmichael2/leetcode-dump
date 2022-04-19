@@ -5,3 +5,4 @@ function longestPalindrome() {
 
 }
 
+console.log()
